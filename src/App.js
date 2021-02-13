@@ -1,6 +1,5 @@
 import Peer from "peerjs";
 import { useEffect, useRef, useState } from "react";
-import { useUserMedia } from "./useUserMedia";
 
 const App = () => {
   const [peer, setPeer] = useState(null);
